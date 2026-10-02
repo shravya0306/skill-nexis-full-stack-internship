@@ -3,64 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Portfolio | Shravya</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>My Portfolio</h1>
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Shravya.</h2>
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Hi! I am a Computer Science Engineering student interested
-            in web development and technology.
-        </p>
-    </section>
+<main class="hero">
 
-    <section id="education">
-        <h2>Education</h2>
-        <p>
-            Bachelor of Technology in Computer Science Engineering
-        </p>
-        <p>RV Institute of Technology and Management, Bangalore</p>
-    </section>
+    <div class="hero-text">
+        <p class="intro">HELLO, I'M</p>
 
-    <section id="projects">
-        <h2>Projects</h2>
+        <h1>Shravya<br><span>Somayaji</span></h1>
 
-        <h3>ReconIQ</h3>
-        <p>
-            A real-time financial reconciliation system for detecting
-            and investigating transaction discrepancies.
+        <p class="description">
+            A Computer Science Engineering student exploring
+            web development, software and technology.
         </p>
 
-        <h3>Smart Home Automation</h3>
-        <p>
-            A home automation project using NodeMCU and IoT technologies.
-        </p>
-    </section>
+        <div class="buttons">
+            <a href="projects.html" class="btn">View My Work</a>
+            <a href="contact.html" class="btn secondary">Contact Me</a>
+        </div>
+    </div>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your-email@example.com</p>
-        <p>GitHub: github.com/yourusername</p>
-        <p>LinkedIn: linkedin.com/in/yourusername</p>
-    </section>
+    <div class="hero-card">
+        <img src="profile-pic.jpeg" alt="Shravya" class="profile-pic">
+        <h3>Computer Science</h3>
+        <p>Student • Developer • Learner</p>
+    </div>
 
-    <footer>
-        <p>© 2026 My Portfolio</p>
-    </footer>
+</main>
+
+<footer>
+    <p>© 2026 Shravya Somayaji</p>
+</footer>
 
 </body>
 </html>
