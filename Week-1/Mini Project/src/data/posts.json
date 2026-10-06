@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "category": "React",
+    "author": "Shravya",
+    "date": "October 1, 2026",
+    "content": "React is a JavaScript library used to build interactive user interfaces."
+  },
+  {
+    "id": 2,
+    "title": "Understanding JavaScript",
+    "category": "JavaScript",
+    "author": "Shravya",
+    "date": "October 2, 2026",
+    "content": "JavaScript is a programming language that makes web pages interactive."
+  },
+  {
+    "id": 3,
+    "title": "Why Learn CSS?",
+    "category": "CSS",
+    "author": "Shravya",
+    "date": "October 3, 2026",
+    "content": "CSS is used to style and design web pages."
+  },
+  {
+    "id": 4,
+    "title": "React Components Explained",
+    "category": "React",
+    "author": "Shravya",
+    "date": "October 4, 2026",
+    "content": "Components are reusable building blocks of React applications."
+  },
+  {
+    "id": 5,
+    "title": "Introduction to Web Development",
+    "category": "Web Development",
+    "author": "Shravya",
+    "date": "October 5, 2026",
+    "content": "Web development involves creating and maintaining websites and web applications."
+  }
+]
